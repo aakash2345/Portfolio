@@ -23,7 +23,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
-	color: #fff;
+	color: #483D8B;
 	background: #333;
 	overflow: hidden;
 }
@@ -135,30 +135,30 @@ html, body { height: 100%; }
 }
 
 .pt-page-1 {
-	background: #9292A7;
+	background: #FFFFFF;
 }
 
 .pt-page-2 {
-	background: #e6e6ff;
+	background: #FFFAFA;
 }
 
 .pt-page-3 {
-	background: #00ace6;
+	background: #F0F8FF;
     
 }
 
 .pt-page-4 {
-	background: #80d4ff;
+	background: #FFFAF0;
     
 }
 
 .pt-page-5 {
-    background: #ecc6d9;
+    background: #F5F5F5;
     
 }
 
 .pt-page-6 {
-    background: #ebfafa;
+    background: #F8F8FF;
 }
 
 .pt-triggers {
@@ -385,8 +385,9 @@ html, body { height: 100%; }
 }
 
 .previousPageLink:hover, .nextPageLink:hover {
-	color: #3C224B;
+	color: #6699CC;
     cursor: hand; cursor: pointer;
+    font-size: 2em;
 }
 
 .nextPageNavContainer {
@@ -401,7 +402,7 @@ html, body { height: 100%; }
 .previousPageLink, .nextPageLink {
 	font-family: Roboto, Verdana, serif;
 	font-size: 1.1em;
-	color: rgba(255,255,255,0.6);
+	color: #000000;
 	text-transform: capitalize;
 	font-weight: 500;
 }
@@ -463,7 +464,7 @@ html, body { height: 100%; }
 .about-me-left h6, .about-me-right h6 {
     font-family: Helvetica;
     font-size:20px;
-    color: #fff;
+    color: #000066;
     margin-bottom: 0px;
 }
 
@@ -582,7 +583,7 @@ html, body { height: 100%; }
 /* Start: Skills Page Styles */
 #skills {
     padding-top:30px;
-    color: #fff;
+    color: #800000;
 }
 
 .skills .col-sm-3 {
@@ -1027,7 +1028,7 @@ html, body { height: 100%; }
 }
 
 .interest_text{
-    color:white;
+    color:800000;
     font-weight: bold;
     font-family:Helvetica;
     font-size:16px;
@@ -1330,15 +1331,46 @@ figure.effect-milo:hover p {
     height: 2.7em;
 }
 
-.contact-icon {
-    color: #78b6c9;
+.fa-envelope{
+    color: #ea4335;
     font-size: 1.5em;
 }
 
-.contact-icon:hover {
-    color: #28a4c9;
+.fa-envelope:hover {
+    color: #dd4b39;
+}
+.fa-facebook {
+    color: #3b5998;
+    font-size: 1.5em;
 }
 
+.fa-facebook:hover {
+    color: #6caddf;
+}
+.fa-pinterest-p {
+    color: #bd081c;
+    font-size: 1.5em;
+}
+
+.fa-pinterest-p:hover {
+    color: #ee3124;
+}
+.fa-linkedin {
+    color: #0077b5;
+    font-size: 1.5em;
+}
+
+.fa-linkedin:hover {
+    color: #00a0dc;
+}
+.fa-book {
+    color: #f57d00;
+    font-size: 1.5em;
+}
+
+.fa-book:hover {
+    color: #fd9f3e;
+}
 .form-control {
     background-color: rgba(255,255,255,0.4);
 }
